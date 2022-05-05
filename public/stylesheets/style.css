@@ -1,0 +1,101 @@
+h1,
+h2,
+h3,
+h4,
+.body-copy {
+  font-family: 'Inconsolata', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+
+a {
+  font-family: 'Inconsolata', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+}
+
+#main-nav {
+  background: linear-gradient(180deg, rgba(0,0,0,1) 39%, rgba(0,0,0,0.8183648459383753) 58%, rgba(0,0,0,0.6727065826330532) 72%, rgba(0,0,0,0.5326505602240896) 86%, rgba(0,212,255,0) 100%);
+}
+
+.nav {
+  color: #000;
+  padding: 24px 0px;
+}
+a.nav-link {
+  color: #999;
+}
+a.nav-link:hover, a.nav-link:active {
+  color: #ffffff;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.social-btn {
+  min-height: 80px;
+  border-radius: 50%;
+  margin-top: 16px;
+}
+
+.icon:hover {
+  height: 64px;
+}
+
+.project {
+  min-height: 300px;
+}
+
+body.dark {
+  background-color: #000;
+}
+
+.section {
+  max-width: 80%;
+  margin: 0 10%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 48px;
+  margin: 0 8px;
+  transition: height .4s ease-out;
+}
+
+.width-100 {
+width: 100%;
+margin: 0;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.height-50 {
+  min-height: 50vh;
+}
+
+.verticalcenter {
+padding: 12.5% 0;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.primary-heading {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  margin: 24px 0;
+}
+
+.third-heading {
+  font-size: 36px;
+  color: #aaa;
+  font-weight: 400;
+}
